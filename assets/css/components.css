@@ -1,0 +1,68 @@
+/*
+  components.css
+  - Botones (primario, outline), estados hover/focus
+  - Cards de producto y ofertas, sombras y radios
+  - Listas de categorías y enlaces auxiliares
+  - Formulario de contacto: inputs, labels, textarea, validaciones
+  - Selectores de atributo, pseudo-clases y pseudo-elementos
+*/
+
+.nav-index ul li a:hover {
+  background-color: var(--color-terciary);
+  color: white;
+  transform: scale(1.05);
+}
+
+.section-digital-content div a:hover {
+  background-color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.catalog-section ul li a:hover {
+  background-color: var(--color-terciary);
+  transform: scale(1.05);
+}
+
+.catalog-article-content button:hover {
+  background-color: var(--color-primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+.onsale-buy-button:hover {
+  background-color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.add-product-button:hover {
+  background-color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.submit-form-button:hover {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  transform: scale(1.05);
+}
+
+.clear-form-button:hover {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+.footer-button:hover {
+  background-color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.catalog-article:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px; 
+}
+
+.onsale-article:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px; 
+}

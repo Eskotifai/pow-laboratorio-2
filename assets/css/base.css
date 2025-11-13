@@ -1,0 +1,26 @@
+/*
+  base.css
+  - Variables globales (:root) para colores, tipografías, espaciados
+  - Escala tipográfica fluida (clamp)
+  - Utilidades genéricas (contenedor, helpers)
+*/
+
+* {
+  /* font-family: "Courier New", Consolas, monospace; */
+  /* font-family: Georgia, "Times New Roman", serif; */
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+:root {
+  --color-primary: #8C98AB;
+  --color-secondary: #e9f1fd;
+  --color-terciary: #2A3E5C;
+  /* Esta paleta monocromatica fue seleccionada para establecer un tema sencillo y agradable
+  a la vista, ideal para una tienda de libros en linea segun las tiendas que hay actualmente.
+  */
+}

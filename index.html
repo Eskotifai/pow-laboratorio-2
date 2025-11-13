@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- HEAD: metadata only; no stylesheets included -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="TecnoMercado · Laboratorio 2" />
+
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/theme-neutral.css">
+
+    <title>TecnoMercado · Plantilla (Lab 2)</title>
+    
+  </head>
+  <body>
+    <!-- HEADER: site branding and primary navigation -->
+    <header class="header-index" role="banner">
+      <div class="space-header-items">
+        <a class="header-title" href="#">LibroMercado</a>
+        <nav class="nav-index">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#producto">Producto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN: page content wrapper -->
+    <main role="main">
+      <!-- HERO: landing intro and promotional notice -->
+      <section class="section-digital-books">
+        <div class="section-digital-content">
+          <div>
+            <h1>Tus Libros Digitales</h1>
+            <p>Explora libros a buen precio con una experiencia fluida y accesible.</p>
+            <a href="#catalogo">Ver catálogo</a>
+          </div>
+          <div class="main-image"><img src="https://imagenes.eleconomista.com.mx/files/webp_1000_1000/uploads/2022/01/24/66e471e26ebf4.jpeg" alt="Libro Principal"></div>
+        </div>
+        <div class="text-advise">Envíos gratis en compras superiores a $50</div>
+      </section>
+
+      <!-- CATALOG: category links and featured products grid -->
+      <section class="catalog-section">
+        <div class="catalog-section-content">
+          <h2>Catálogo destacado</h2>
+          <ul>
+            <li><a href="#">Misterio</a></li>
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Cocina</a></li>
+            <li><a href="#">Programacion</a></li>
+          </ul>
+
+          <div class="grid-article">
+            <article class="catalog-article" tabindex="0">
+              <div class="catalog-article-div"><img src="https://m.media-amazon.com/images/I/91Jh0lN45WL._SL1500_.jpg" alt="Libro1"></div>
+              <div class="catalog-article-content">
+                <h3>Libro de Misterio</h3>
+                <p>$49.90</p>
+                <button class="article-button">Ver detalle</button>
+              </div>
+            </article>
+            <article class="catalog-article" tabindex="0">
+              <div class="catalog-article-div"><img src="https://m.media-amazon.com/images/I/71LYDwlardL._SL1293_.jpg" alt="Libro2"></div>
+              <div class="catalog-article-content">
+                <h3>Libro de Historia</h3>
+                <p>$29.50</p>
+                <button class="article-button">Ver detalle</button>
+              </div>
+            </article>
+            <article class="catalog-article" tabindex="0">
+              <div class="catalog-article-div"><img src="https://m.media-amazon.com/images/I/91fD-8E4D0L._SL1500_.jpg" alt="Libro3"></div>
+              <div class="catalog-article-content">
+                <h3>Libro de Cocina</h3>
+                <p>$19.99</p>
+                <button class="article-button">Ver detalle</button>
+              </div>
+            </article>
+            <article class="catalog-article" tabindex="0">
+              <div class="catalog-article-div"><img src="https://m.media-amazon.com/images/I/81Rnac2Fq+L._SL1500_.jpg" alt="Libro4"></div>
+              <div class="catalog-article-content">
+                <h3>Libro de Programacion</h3>
+                <p>$24.00</p>
+                <button class="article-button">Ver detalle</button>
+              </div>
+            </article>
+            <article class="catalog-article" tabindex="0">
+              <div class="catalog-article-div"><img src="https://m.media-amazon.com/images/I/81QbO2b8j9L._SL1500_.jpg" alt="Libro5"></div>
+              <div class="catalog-article-content">
+                <h3>Libro de Programacion 2</h3>
+                <p>$69.00</p>
+                <button class="article-button">Ver detalle</button>
+              </div>
+            </article>
+            <article class="catalog-article" tabindex="0">
+              <div class="catalog-article-div"><img src="https://m.media-amazon.com/images/I/91khdMvDPmL._SL1500_.jpg" alt="Libro5"></div>
+              <div class="catalog-article-content">
+                <h3>Libro de Historia 2</h3>
+                <p>$17.49</p>
+                <button class="article-button">Ver detalle</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- OFFERS: seasonal deals and promotions -->
+      <section class="offers-section">
+        <div>
+          <h2>Ofertas de temporada</h2>
+          <div class="grid-onsale-article">
+            <div class="onsale-article">
+              <span class="onsale-percentage">-20%</span>
+              <h3>Clean Architecture</h3>
+              <p>Usa arquitectura limpia en tus proyectos.</p>
+              <a class="onsale-buy-button" href="#">Comprar</a>
+            </div>
+            <div class="onsale-article">
+              <span class="onsale-percentage">-30%</span>
+              <h3>Mi cocina</h3>
+              <p>Libro muy completo de cocina.</p>
+              <a class="onsale-buy-button" href="#">Comprar</a>
+            </div>
+            <div class="onsale-article">
+              <span class="onsale-percentage">-15%</span>
+              <h3>Javascript Facil</h3>
+              <p>Aprende en un fin de semana.</p>
+              <a class="onsale-buy-button" href="#">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCT: single product detail section -->
+      <section class="product-section">
+        <div class="product-section-content">
+          <div aria-hidden="true" class="product-section-div"><img src="https://m.media-amazon.com/images/I/61c7XofgsYL._SL1293_.jpg" alt="LibroDestacado"></div>
+          <div class="product-section-info">
+            <h2>Ultimate Python</h2>
+            <p>Un libro para principiantes fácil de seguir</p>
+            <p>Aprender a programar es una herramienta necesaria el día de hoy</p>
+            <ul>
+              <li>500 paginas</li>
+              <li>Facil de entender</li>
+              <li>Tips Unicos</li>
+            </ul>
+            <div>
+              <span>$49.90</span>
+              <button class="add-product-button">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT: contact form -->
+      <section class="contact-section">
+        <div>
+          <h2>Contacto</h2>
+          <form action="#" method="post">
+            <div class="contact-item">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" />
+            </div>
+            <div class="contact-item">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="tucorreo@dominio.com" />
+            </div>
+            <div class="contact-item">
+              <label for="asunto">Asunto</label>
+              <input id="asunto" name="asunto" type="text" placeholder="Motivo del mensaje" />
+            </div>
+            <div class="contact-item">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu consulta"></textarea>
+            </div>
+            <div class="right-buttons">
+              <button class="clear-form-button" type="reset">Limpiar</button>
+              <button class="submit-form-button" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER: site footer with secondary navigation -->
+    <footer role="contentinfo">
+      <div class="space-footer-items">
+        <div>
+          <h3>LibroMercado</h3>
+          <p>E-commerce de referencia con envíos en 24-48h.</p>
+        </div>
+        <nav aria-label="Secundaria">
+          <ul>
+            <li><a href="#">Términos</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Soporte</a></li>
+          </ul>
+        </nav>
+        <div>
+          <a class="footer-button" href="#inicio">Volver arriba</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
